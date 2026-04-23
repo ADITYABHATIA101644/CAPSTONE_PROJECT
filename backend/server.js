@@ -17,7 +17,7 @@ app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/events', require('./routes/eventRoutes'));
 app.use('/api/bookings', require('./routes/bookingRoutes'));
 
-// Serve frontend build files
+// Serve React build
 app.use(express.static(path.join(__dirname, '../frontend/build')));
 
 // API test route
@@ -25,8 +25,8 @@ app.get('/api', (req, res) => {
   res.send('API running');
 });
 
-// React app routes
-app.get('*', (req, res) => {
+// Catch all non-API routes and return React app
+app.get(/^\/(?!api).*/, (req, res) => {
   res.sendFile(path.join(__dirname, '../frontend/build', 'index.html'));
 });
 
