@@ -6,7 +6,7 @@ This project supports **role-based authentication (Admin & User)**, event manage
 ---
 
 ## 🌐 Live Demo
-👉 https://your-app.onrender.com *(Add your Render link here)*
+👉https://booking-app-a4jc.onrender.com/
 
 ---
 
@@ -162,7 +162,7 @@ Real-world project architecture
 
 Aditya Bhatia
 
-GitHub: https://github.com/your-username
+GitHub: https://github.com/ADITYABHATIA101644/CAPSTONE_PROJECT
 Project: CAPSTONE PROJECT
 
 ## ⭐ Acknowledgements
